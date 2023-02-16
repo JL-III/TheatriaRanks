@@ -1,7 +1,7 @@
 [
     {
 		"id": 0,
-        "name": "Pleb",
+		"name": "Pleb",
 		"cost": 0,
 		"locks": {
 			"default": 20,
