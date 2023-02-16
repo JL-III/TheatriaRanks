@@ -1,112 +1,120 @@
 [
     {
-        "name": "Pleb"
+		"id": 0,
+        "name": "Pleb",
+		"cost": 0,
+		"locks": {
+			"default": 20,
+			"chest": 10
+		},
+		"homes": "2 + bed", 
+		"commands": {
+			"/own": "used to claim an item",
+			"/disown": "used to unclaim an item",
+			"/worth": "show sell hand value",
+			"/arena": "teleport to mob arenas",
+			"/bal": "check your balance",
+			"/baltop": "check top balances",
+			"/boost": "check if mcmmo boost is active",
+			"/coords": "show you coordinates",
+			"/delhome": "delete a home",
+			"/happyhour": "check if happyhour is active",
+			"/help": "brings up documentation",
+			"/homes": "list of your homes",
+			"/home <name>": "teleport to a home",
+			"/l": "view all your lands information",
+			"ledger": "view your transactions and earnings",
+			"/lobby": "go back to the lobby",
+			"/lock": "lock a chest",
+			"/mail": "read or send mail",
+			"/map": "link to dynmap",
+			"/market": "warp to the playermarkets",
+			// what is this command doing???
+			"/mcrank": "check your mcmmo stats",
+			"/msg": "message someone",
+			"/pay <name> <amount>": "pay someone a certain amount",
+			"/warp <name>": "warp to specific warp",
+			"/playerweather": "change the weather for yourself",
+			"/playtime": "check your playtime",
+			"/ranks": "shows information about ranks",
+			"/rankup": "rank up",
+			"/realname <nickname>": "find the real name of a player",
+			"/reply <message>": "reply to the last person who messaged you",
+			"/rtp": "teleport to a random location",
+			"/rules": "a link to the rules",
+			"/sell hand": "sell all items in your inventory that match the item you are holding in your hand",
+			"/sellbag": "sells a bag of denarii",
+			"/server": "see a list of servers you can join",
+			"/sethome <name>": "set a home with the name you choose",
+			"/shop": "tp to playershops",
+			"/spawn": "tp to spawn",
+			"/stats": "mcmmo stats",
+			"/tags": "pull up a list of tags you can wear in chat",
+			"/theatria": "sends you to the economy server",
+			"/titan pack": "downloads custom texture pack",
+			"/tpa <username>": "ask a player if you can tp to them",
+			"/tpahere <username>": "ask a player to tp to you",
+			"/tpaaccept": "accept a players request to tp",
+			"/tpdeny": "deny players request to tp",
+			// this has got to be fixed for a better player experience, its confusing requiring players to understand contexts
+			"/trust <player>": "trust a player on the land you are editing",
+			"/unclaim": "unclaim",
+			"/unlock": "unlock a chest",
+			"/unstuck": "get unstuck from a location",
+			//another troublesome command
+			"/untrust <player>": "remove a trusted player from the land you editing",
+			"/vote": "earn rewards for voting!",
+			"/voteall": "see a list of all the vote sites",
+			"/votetop": "see top voters for the month",
+			//what is this doing???
+			"/wiki": "a link to the wiki??",
+			"/wild": "another way to rtp"
+		}
     },
-    {
+	{
+		"id": 1,
+        "name": "Pleb+",
+		"cost": 10000,
+		"locks": {
+			"default": 50,
+			"chest": 25
+		},
+		"homes": "3 + bed", 
+		"commands": {
 
-    },
-    {
+		}
+	},
+	{
+		"id": 2,
+        "name": "Pleb++",
+		"cost": 15000,
+		"locks": {
+			"default": 100,
+			"chest": 50
+		},
+		"homes": "5 + bed", 
+		"commands": {
 
-    },
-    {
+		}
+	},
+	{
+		"id": 4,
+		"name": "Initiate"
+	},
+	{
+		"id": 5,
+		"name": "Novice"
+	},
+	{
+		"id": 6,
+		"name": "Apprentice"
+	},
+	{
+		"id": 7,
+		"name": "Journeyman"
+	}
 
-    },
-    {
-
-    },
-    {
-
-    }
 ]
-
-
-Pleb
-
-commands -> 
-	/own
-	/disown
-	/worth
-	/arena
-	/bal
-	/baltop
-	/boost
-	/coords
-	/delhome
-	/happyhour
-	/help
-	/homes
-	/home <name>
-	/l -> view all your lands information like limits and locations
-	/ledger -> view your monetary transactions
-	/lobby
-	/lock
-	/mail
-	/map
-	/market
-	/mcrank
-	/msg /pm
-	/pay
-	/playerwarp /pw
-	/playerweather /pweather
-	/playtime
-	/ranks
-	/rankup
-	/realname
-	/reply
-	/rtp
-	/rules
-	/sell
-	/sellbag
-	/server
-	/sethome
-	/shop -> tp to player shops
-	/spawn -> to to spawn
-	/stats -> mcmmo stats
-	/tags
-	/theatria -> eco server
-	/titan pack -> downloads texture pack
-	/tpa, /tpask
-	/tpahere
-	/tpaccept
-	/tpdeny
-	/trust
-	/unclaim
-	/unlock
-	/unstuck
-	/untrust
-	/vote
-	/voteall
-	/votetop
-	/warp /warps
-	/wiki
-	/wild
-	/worth
-	
-	homes 2 + bed
-	locks 
-		default: 20
-		chest: 10
-
-Pleb+
-	Cost: $10,000
-commands ->
-	homes 3 + bed
-	locks 
-        default: 50
-        chest: 25
-Pleb++
-	Cost: $15,000
-	homes 5 + bed
-	locks 
-        default: 100
-        chest: 50
-Initiate
-
-Novice
-
-Apprentice
-
-Journeyman
 
 Gladiator
 	Cost: $50,000
