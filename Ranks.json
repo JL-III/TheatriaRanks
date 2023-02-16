@@ -73,7 +73,7 @@
     },
 	{
 		"id": 1,
-        "name": "Pleb+",
+		"name": "Pleb+",
 		"cost": 10000,
 		"locks": {
 			"default": 50,
@@ -86,7 +86,7 @@
 	},
 	{
 		"id": 2,
-        "name": "Pleb++",
+		"name": "Pleb++",
 		"cost": 15000,
 		"locks": {
 			"default": 100,
@@ -115,7 +115,7 @@
 	},
 	{
 		"id": 8,
-        "name": "Gladiator",
+		"name": "Gladiator",
 		"cost": 50000,
 		"locks": {
 			"default": 200,
@@ -136,7 +136,7 @@
 	},
 	{
 		"id": 11,
-        "name": "Patrician",
+		"name": "Patrician",
 		"cost": 125000,
 		"chunks": 400,
 		"creative-world": true,
@@ -155,7 +155,7 @@
 	},
 	{
 		"id": 12,
-        "name": "Eques",
+		"name": "Eques",
 		"cost": 250000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -175,7 +175,7 @@
 	},
 	{
 		"id": 14,
-        "name": "Hero",
+		"name": "Hero",
 		"cost": 750000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -223,7 +223,7 @@
 	},
 	{
 		"id": 18,
-        "name": "Demigod",
+		"name": "Demigod",
 		"cost": 3500000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -243,7 +243,7 @@
 	},
 	{
 		"id": 19,
-        "name": "God",
+		"name": "God",
 		"cost": 7500000,
 		"chunks": 2500,
 		"creative-world": true,
