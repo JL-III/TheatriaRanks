@@ -1,0 +1,230 @@
+[
+    {
+        "name": "Pleb"
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    }
+]
+
+
+Pleb
+
+commands -> 
+	/own
+	/disown
+	/worth
+	/arena
+	/bal
+	/baltop
+	/boost
+	/coords
+	/delhome
+	/happyhour
+	/help
+	/homes
+	/home <name>
+	/l -> view all your lands information like limits and locations
+	/ledger -> view your monetary transactions
+	/lobby
+	/lock
+	/mail
+	/map
+	/market
+	/mcrank
+	/msg /pm
+	/pay
+	/playerwarp /pw
+	/playerweather /pweather
+	/playtime
+	/ranks
+	/rankup
+	/realname
+	/reply
+	/rtp
+	/rules
+	/sell
+	/sellbag
+	/server
+	/sethome
+	/shop -> tp to player shops
+	/spawn -> to to spawn
+	/stats -> mcmmo stats
+	/tags
+	/theatria -> eco server
+	/titan pack -> downloads texture pack
+	/tpa, /tpask
+	/tpahere
+	/tpaccept
+	/tpdeny
+	/trust
+	/unclaim
+	/unlock
+	/unstuck
+	/untrust
+	/vote
+	/voteall
+	/votetop
+	/warp /warps
+	/wiki
+	/wild
+	/worth
+	
+	homes 2 + bed
+	locks 
+		default: 20
+		chest: 10
+
+Pleb+
+	Cost: $10,000
+commands ->
+	homes 3 + bed
+	locks 
+        default: 50
+        chest: 25
+Pleb++
+	Cost: $15,000
+	homes 5 + bed
+	locks 
+        default: 100
+        chest: 50
+Initiate
+
+Novice
+
+Apprentice
+
+Journeyman
+
+Gladiator
+	Cost: $50,000
+	/enderchest
+	homes 10 + bed
+	locks 
+        default: 200
+        chest: 100
+Veteran
+
+Ascendant
+
+Patrician
+	Cost: $125,000
+	access to creative world
+	
+	/lands setspawn
+	/lands list
+	/skull
+	/list
+	/craft
+	chunks 400
+	homes 15 + bed
+	locks 
+        default: 300
+        chest: 150
+Eques
+	Cost: $250,000
+	/disposal
+	tp cooldown gone
+	chunks 2500
+Archon
+
+Hero
+	Cost: $750,000
+	/back
+	/near
+	/fix
+	/heal
+	/clearinventory
+	/anvil
+	/kit rainstick
+	/kit ares
+	/kit spawner5
+	locks 
+        default: 350
+        chest : 175
+
+Champion
+    locks
+        default: 400
+        chest : 200	
+	
+	
+Paragon
+	locks
+		default: 450
+        chest : 225
+Legend
+    locks
+        default: 500
+        chest : 250
+Demigod
+	Cost: $3,500,000
+	/fix all
+	/condense
+	/heal
+	/powertool
+	/kit spawner15
+    locks
+        default: 550
+        chest : 275
+	
+God
+	Cost: $7,500,000
+	/uncondense
+	/anvil
+	/soak
+	/jump
+	/top
+	/smelt
+	/kit spawner25
+	
+	ancient power imbue one titan tool
+    locks
+        default: 600
+        chest : 300
+	TOB
+Olympian
+    olympian:
+        default: 650
+        chest : 325
+	TOB
+	keep exp
+Titan
+    titan:
+        default: 700
+        chest : 350
+	TOB
+Immortal
+    immortal:
+        default: 750
+        chest : 375
+	TOB
+	keep inv
+
+
+
+
+notes:
+
+rtp countdown excessive? probably
+command /utils generates an exception
+docs tell players to use /help <rank> but no category exists for that
+docs say players can purchase more imbued picks with god rank, this is no longer true
+
+
+changelog
+
+rtp no longer has a countdown.
+god rank locks 175 -> 300 for chests
