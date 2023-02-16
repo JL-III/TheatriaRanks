@@ -112,114 +112,192 @@
 	{
 		"id": 7,
 		"name": "Journeyman"
+	},
+	{
+		"id": 8,
+        "name": "Gladiator",
+		"cost": 50000,
+		"locks": {
+			"default": 200,
+			"chest": 100
+		},
+		"homes": "10 + bed", 
+		"commands": {
+			"/enderchest": "access to a virtual enderchest"
+		}
+	},
+	{
+		"id": 9,
+		"name": "Veteran"
+	},
+	{
+		"id": 10,
+		"name": "Ascendant"
+	},
+	{
+		"id": 11,
+        "name": "Patrician",
+		"cost": 125000,
+		"chunks": 400,
+		"creative-world": true,
+		"locks": {
+			"default": 300,
+			"chest": 150
+		},
+		"homes": "15 + bed", 
+		"commands": {
+			"/lands setspawn": "set the spawn of your land",
+			"/lands list": "list of your lands",
+			"/skull": "get your skull", //costs money
+			"/list": "get a list of players on the server",
+			"/craft": "virtual crafting table"
+		}
+	},
+	{
+		"id": 12,
+        "name": "Eques",
+		"cost": 250000,
+		"chunks": 2500,
+		"creative-world": true,
+		"tp-cooldown": false, //is this still a thing???
+		"locks": {
+			"default": 300,
+			"chest": 150
+		},
+		"homes": "15 + bed", 
+		"commands": {
+			"/disposal": "access to an inventory that you can throw things away in"
+		}
+	},
+	{
+		"id": 13,
+		"name": "Archon"
+	},
+	{
+		"id": 14,
+        "name": "Hero",
+		"cost": 750000,
+		"chunks": 2500,
+		"creative-world": true,
+		"tp-cooldown": false, //is this still a thing???
+		"locks": {
+			"default": 350,
+			"chest": 175
+		},
+		"homes": "15 + bed", 
+		"commands": {
+			"/back": "go back to your prev location",
+			"/near": "check who is near you",
+			"/fix": "fix the durability of an item", //costs money
+			"/heal": "heal yourself", //costs money
+			"/clearinventory": "delete your inventory",
+			"/anvil": "virtual anvil",//costs money
+			"/kit rainstick": "make it rain",
+			"/kit ares": "ares tome shoots fireballs",
+			"/kit spawner5": "5 spawner keys monthly"
+		}
+	},
+	{
+		"id": 15,
+		"name": "Champion",
+		"locks": {
+			"default": 400,
+			"chest": 200 
+		}
+	},
+	{
+		"id": 16,
+		"name": "Paragon",
+		"locks": {
+			"default": 450,
+			"chest": 225 
+		}
+	},
+	{
+		"id": 17,
+		"name": "Legend",
+		"locks": {
+			"default": 500,
+			"chest": 250 
+		}
+	},
+	{
+		"id": 18,
+        "name": "Demigod",
+		"cost": 3500000,
+		"chunks": 2500,
+		"creative-world": true,
+		"tp-cooldown": false, //is this still a thing???
+		"locks": {
+			"default": 550,
+			"chest": 275
+		},
+		"homes": "15 + bed", 
+		"commands": {
+			"/fix all": "fix all items in your inventory", //costs money
+			"/condense": "condense items in your inventory",
+			"/heal": "heal yourself", //does this cost money??
+			"/powertool": "set an item as a command executor",
+			"/kit spawner15": "15 spawner keys a month"
+		}
+	},
+	{
+		"id": 19,
+        "name": "God",
+		"cost": 7500000,
+		"chunks": 2500,
+		"creative-world": true,
+		"tp-cooldown": false, //is this still a thing???
+		"tob": true,
+		"ancient-power-imbue": true,
+		"locks": {
+			"default": 600,
+			"chest": 300
+		},
+		"homes": "15 + bed", 
+		"commands": {
+			"/uncondense": "uncondense items in your inventory",
+			"/anvil": "virtual anvil", //no longer costs money
+			"/soak": "convert concrete powder to concrete",
+			"/jump": "jump to a location",
+			"/top": "teleport to the top most location above you",
+			"/smelt": "smelt items in your hand",
+			"kit spawner25": "25 spawner keys a month"
+		}
+	},
+	{
+		"id": 20,
+		"name": "Olympian",
+		"tob": true,
+		"keep-exp": true,
+		"locks": {
+			"default": 650,
+			"chest": 325 
+		}
+	},
+	{
+		"id": 21,
+		"name": "Titan",
+		"tob": true,
+		"keep-exp": true,
+		"locks": {
+			"default": 700,
+			"chest": 350 
+		}
+	},
+	{
+		"id": 22,
+		"name": "Immortal",
+		"tob": true,
+		"keep-exp": true,
+		"keep-inv": true,
+		"locks": {
+			"default": 750,
+			"chest": 375 
+		}
 	}
 
 ]
-
-Gladiator
-	Cost: $50,000
-	/enderchest
-	homes 10 + bed
-	locks 
-        default: 200
-        chest: 100
-Veteran
-
-Ascendant
-
-Patrician
-	Cost: $125,000
-	access to creative world
-	
-	/lands setspawn
-	/lands list
-	/skull
-	/list
-	/craft
-	chunks 400
-	homes 15 + bed
-	locks 
-        default: 300
-        chest: 150
-Eques
-	Cost: $250,000
-	/disposal
-	tp cooldown gone
-	chunks 2500
-Archon
-
-Hero
-	Cost: $750,000
-	/back
-	/near
-	/fix
-	/heal
-	/clearinventory
-	/anvil
-	/kit rainstick
-	/kit ares
-	/kit spawner5
-	locks 
-        default: 350
-        chest : 175
-
-Champion
-    locks
-        default: 400
-        chest : 200	
-	
-	
-Paragon
-	locks
-		default: 450
-        chest : 225
-Legend
-    locks
-        default: 500
-        chest : 250
-Demigod
-	Cost: $3,500,000
-	/fix all
-	/condense
-	/heal
-	/powertool
-	/kit spawner15
-    locks
-        default: 550
-        chest : 275
-	
-God
-	Cost: $7,500,000
-	/uncondense
-	/anvil
-	/soak
-	/jump
-	/top
-	/smelt
-	/kit spawner25
-	
-	ancient power imbue one titan tool
-    locks
-        default: 600
-        chest : 300
-	TOB
-Olympian
-    olympian:
-        default: 650
-        chest : 325
-	TOB
-	keep exp
-Titan
-    titan:
-        default: 700
-        chest : 350
-	TOB
-Immortal
-    immortal:
-        default: 750
-        chest : 375
-	TOB
-	keep inv
 
 
 
