@@ -2,6 +2,7 @@
     {
 		"id": 0,
 		"name": "Pleb",
+		"displayname": "&f[Pleb]",
 		"cost": 0,
 		"locks": {
 			"default": 20,
@@ -73,7 +74,8 @@
     },
 	{
 		"id": 1,
-		"name": "Pleb+",
+		"name": "Initiate",
+		"displayname": "&e[&fInitiate&e]",
 		"cost": 10000,
 		"locks": {
 			"default": 50,
@@ -86,7 +88,8 @@
 	},
 	{
 		"id": 2,
-		"name": "Pleb++",
+		"name": "Novice",
+		"displayname": "&2[&eNovice&2]",
 		"cost": 15000,
 		"locks": {
 			"default": 100,
@@ -98,24 +101,19 @@
 		}
 	},
 	{
+		"id": 3,
+		"name": "Apprentice",
+		"displayname": ""
+	},
+	{
 		"id": 4,
-		"name": "Initiate"
+		"name": "Journeyman",
+		"displayname": ""
 	},
 	{
 		"id": 5,
-		"name": "Novice"
-	},
-	{
-		"id": 6,
-		"name": "Apprentice"
-	},
-	{
-		"id": 7,
-		"name": "Journeyman"
-	},
-	{
-		"id": 8,
 		"name": "Gladiator",
+		"displayname": "&e[&fGladiator&e]",
 		"cost": 50000,
 		"locks": {
 			"default": 200,
@@ -127,16 +125,19 @@
 		}
 	},
 	{
-		"id": 9,
-		"name": "Veteran"
+		"id": 6,
+		"name": "Veteran",
+		"displayname": "&4[&eVeteran&4]"
 	},
 	{
-		"id": 10,
-		"name": "Ascendant"
+		"id": 7,
+		"name": "Ascendant",
+		"displayname": "&6[&eAscendant&6]"
 	},
 	{
-		"id": 11,
+		"id": 8,
 		"name": "Patrician",
+		"displayname": "&a[Patrician&a]",
 		"cost": 125000,
 		"chunks": 400,
 		"creative-world": true,
@@ -154,8 +155,9 @@
 		}
 	},
 	{
-		"id": 12,
+		"id": 9,
 		"name": "Eques",
+		"displayname": "&a[Eques]",
 		"cost": 250000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -170,12 +172,14 @@
 		}
 	},
 	{
-		"id": 13,
-		"name": "Archon"
+		"id": 10,
+		"name": "Archon",
+		"displayname": "&3[&fArchon&3]"
 	},
 	{
-		"id": 14,
+		"id": 11,
 		"name": "Hero",
+		"diplayname": "&4[&6*Hero*&4]",
 		"cost": 750000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -198,32 +202,36 @@
 		}
 	},
 	{
-		"id": 15,
+		"id": 12,
 		"name": "Champion",
+		"displayname": "&b[&6Champion&b]",
 		"locks": {
 			"default": 400,
 			"chest": 200 
 		}
 	},
 	{
-		"id": 16,
+		"id": 13,
 		"name": "Paragon",
+		"displayname": "&6[&eParagon&6]",
 		"locks": {
 			"default": 450,
 			"chest": 225 
 		}
 	},
 	{
-		"id": 17,
+		"id": 14,
 		"name": "Legend",
+		"displayname": "&3[&bLegend&3]",
 		"locks": {
 			"default": 500,
 			"chest": 250 
 		}
 	},
 	{
-		"id": 18,
+		"id": 15,
 		"name": "Demigod",
+		"displayname": "&6[&d*Demigod*&6]",
 		"cost": 3500000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -242,8 +250,9 @@
 		}
 	},
 	{
-		"id": 19,
+		"id": 16,
 		"name": "God",
+		"displayname": "&9[&5*God*&9]",
 		"cost": 7500000,
 		"chunks": 2500,
 		"creative-world": true,
@@ -266,8 +275,9 @@
 		}
 	},
 	{
-		"id": 20,
+		"id": 17,
 		"name": "Olympian",
+		"displayname": "&4[&fOlympian&4]",
 		"tob": true,
 		"keep-exp": true,
 		"locks": {
@@ -276,8 +286,9 @@
 		}
 	},
 	{
-		"id": 21,
+		"id": 18,
 		"name": "Titan",
+		"displayname": "&5[&dTitan&5]",
 		"tob": true,
 		"keep-exp": true,
 		"locks": {
@@ -286,8 +297,9 @@
 		}
 	},
 	{
-		"id": 22,
+		"id": 19,
 		"name": "Immortal",
+		"displayname": "&5[&eImmortal&5]",
 		"tob": true,
 		"keep-exp": true,
 		"keep-inv": true,
@@ -298,19 +310,3 @@
 	}
 
 ]
-
-
-
-
-notes:
-
-rtp countdown excessive? probably
-command /utils generates an exception
-docs tell players to use /help <rank> but no category exists for that
-docs say players can purchase more imbued picks with god rank, this is no longer true
-
-
-changelog
-
-rtp no longer has a countdown.
-god rank locks 175 -> 300 for chests
