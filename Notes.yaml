@@ -1,0 +1,124 @@
+
+
+
+
+notes:
+
+rtp countdown excessive? probably
+command /utils generates an exception
+docs tell players to use /help <rank> but no category exists for that
+docs say players can purchase more imbued picks with god rank, this is no longer true
+
+
+changelog
+
+rtp no longer has a countdown.
+god rank locks 175 -> 300 for chests
+
+pleb+ and pleb++ have been renamed to
+pleb+ -> Initiate
+pleb++ -> Novice
+
+kit nightfish
+kit sunfish
+
+!!!! give bal others to a rank
+
+## Essentials
+
+sethome-multiple:
+  default: 2
+  initiate: 3
+  novice: 5
+  gladiator: 10
+  patrician: 15
+  eques: 20
+  archon: 25
+  hero: 30
+  champion: 35
+  paragon: 40
+  legend: 45
+  demigod: 50
+  god: 55
+  olympian: 60
+  titan: 65
+  immortal: 70
+
+  staff: 15
+  multihome25: 25
+  multihome35: 35
+  multihome45: 45
+
+# Sort output of /list command by groups.
+# You can hide and merge the groups displayed in /list by defining the desired behaviour here.
+# Detailed instructions and examples can be found on the wiki: http://wiki.ess3.net/wiki/List
+list:
+    # To merge groups, list the groups you wish to merge
+    #Staff: owner admin moderator
+    Plebian: pleb default
+    Gladiator: gladiator
+    Patrician: patrician
+    Equestrian: Eques eques
+    Hero: Hero hero
+    Demigod: Demigod demigod
+    God: God god
+    Moderator: moderator mod
+    SeniorMod: seniormod seniormoderator
+    Developer: dev developer
+    Admin: admin
+    Manager: manager
+    Owner: owner
+
+groups:
+    # 5 chests, unlimited everything else
+    pleb:
+        default: 20
+        chest: 10
+    initiate:
+        default: 50
+        chest: 25
+    novice:
+        default: 100
+        chest: 50
+    gladiator:
+        default: 200
+        chest: 100
+    patrician:
+        default: 300
+        chest: 150
+    archon:
+        default: 300
+        chest: 150
+    eques:
+        default: 300
+        chest: 150
+    hero:
+        default: 350
+        chest : 175
+    champion:
+        default: 400
+        chest : 200
+    paragon:
+        default: 450
+        chest : 225
+    legend:
+        default: 500
+        chest : 250
+    demigod:
+        default: 550
+        chest : 275
+    god:
+        default: 600
+        chest : 300
+    olympian:
+        default: 650
+        chest : 325
+    titan:
+        default: 700
+        chest : 350
+    immortal:
+        default: 750
+        chest : 375
+    owner:
+        default: 1000
+        chset: 1000

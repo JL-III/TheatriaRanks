@@ -1,19 +1,19 @@
 [
-    {
+	{
 		"id": 0,
 		"name": "Pleb",
 		"displayname": "&f[Pleb]",
 		"cost": 0,
+		"chunks": 400,
 		"locks": {
 			"default": 20,
 			"chest": 10
 		},
-		"homes": "2 + bed", 
+		"homes": "2 + bed",
 		"commands": {
 			"/own": "used to claim an item",
 			"/disown": "used to unclaim an item",
 			"/worth": "show sell hand value",
-			"/arena": "teleport to mob arenas",
 			"/bal": "check your balance",
 			"/baltop": "check top balances",
 			"/boost": "check if mcmmo boost is active",
@@ -24,13 +24,12 @@
 			"/homes": "list of your homes",
 			"/home <name>": "teleport to a home",
 			"/l": "view all your lands information",
-			"ledger": "view your transactions and earnings",
+			"/ledger": "view your transactions and earnings",
 			"/lobby": "go back to the lobby",
 			"/lock": "lock a chest",
 			"/mail": "read or send mail",
 			"/map": "link to dynmap",
 			"/market": "warp to the playermarkets",
-			// what is this command doing???
 			"/mcrank": "check your mcmmo stats",
 			"/msg": "message someone",
 			"/pay <name> <amount>": "pay someone a certain amount",
@@ -45,268 +44,318 @@
 			"/rules": "a link to the rules",
 			"/sell hand": "sell all items in your inventory that match the item you are holding in your hand",
 			"/sellbag": "sells a bag of denarii",
-			"/server": "see a list of servers you can join",
 			"/sethome <name>": "set a home with the name you choose",
 			"/shop": "tp to playershops",
 			"/spawn": "tp to spawn",
 			"/stats": "mcmmo stats",
 			"/tags": "pull up a list of tags you can wear in chat",
-			"/theatria": "sends you to the economy server",
 			"/titan pack": "downloads custom texture pack",
 			"/tpa <username>": "ask a player if you can tp to them",
 			"/tpahere <username>": "ask a player to tp to you",
 			"/tpaaccept": "accept a players request to tp",
 			"/tpdeny": "deny players request to tp",
-			// this has got to be fixed for a better player experience, its confusing requiring players to understand contexts
 			"/trust <player>": "trust a player on the land you are editing",
 			"/unclaim": "unclaim",
 			"/unlock": "unlock a chest",
 			"/unstuck": "get unstuck from a location",
-			//another troublesome command
 			"/untrust <player>": "remove a trusted player from the land you editing",
 			"/vote": "earn rewards for voting!",
 			"/voteall": "see a list of all the vote sites",
 			"/votetop": "see top voters for the month",
-			//what is this doing???
-			"/wiki": "a link to the wiki??",
-			"/wild": "another way to rtp"
-		}
-    },
+			"/wiki": "a link to the wiki??"
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
+	},
 	{
 		"id": 1,
 		"name": "Initiate",
 		"displayname": "&e[&fInitiate&e]",
 		"cost": 10000,
+		"chunks": 400,
 		"locks": {
 			"default": 50,
 			"chest": 25
 		},
-		"homes": "3 + bed", 
-		"commands": {
-
-		}
+		"homes": "3 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
 		"id": 2,
 		"name": "Novice",
 		"displayname": "&2[&eNovice&2]",
-		"cost": 15000,
+		"cost": 25000,
+		"chunks": 400,
 		"locks": {
 			"default": 100,
 			"chest": 50
 		},
-		"homes": "5 + bed", 
-		"commands": {
-
-		}
+		"homes": "5 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
 		"id": 3,
-		"name": "Apprentice",
-		"displayname": ""
-	},
-	{
-		"id": 4,
-		"name": "Journeyman",
-		"displayname": ""
-	},
-	{
-		"id": 5,
 		"name": "Gladiator",
 		"displayname": "&e[&fGladiator&e]",
 		"cost": 50000,
+		"chunks": 400,
 		"locks": {
 			"default": 200,
 			"chest": 100
 		},
-		"homes": "10 + bed", 
+		"homes": "10 + bed",
 		"commands": {
 			"/enderchest": "access to a virtual enderchest"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 6,
-		"name": "Veteran",
-		"displayname": "&4[&eVeteran&4]"
-	},
-	{
-		"id": 7,
-		"name": "Ascendant",
-		"displayname": "&6[&eAscendant&6]"
-	},
-	{
-		"id": 8,
+		"id": 4,
 		"name": "Patrician",
 		"displayname": "&a[Patrician&a]",
 		"cost": 125000,
 		"chunks": 400,
-		"creative-world": true,
 		"locks": {
 			"default": 300,
 			"chest": 150
 		},
-		"homes": "15 + bed", 
+		"homes": "15 + bed",
 		"commands": {
 			"/lands setspawn": "set the spawn of your land",
 			"/lands list": "list of your lands",
-			"/skull": "get your skull", //costs money
+			"/skull": "get your skull",
 			"/list": "get a list of players on the server",
 			"/craft": "virtual crafting table"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 9,
+		"id": 5,
 		"name": "Eques",
 		"displayname": "&a[Eques]",
 		"cost": 250000,
 		"chunks": 2500,
-		"creative-world": true,
-		"tp-cooldown": false, //is this still a thing???
 		"locks": {
 			"default": 300,
 			"chest": 150
 		},
-		"homes": "15 + bed", 
+		"homes": "15 + bed",
 		"commands": {
 			"/disposal": "access to an inventory that you can throw things away in"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 10,
+		"id": 6,
 		"name": "Archon",
-		"displayname": "&3[&fArchon&3]"
-	},
-	{
-		"id": 11,
-		"name": "Hero",
-		"diplayname": "&4[&6*Hero*&4]",
-		"cost": 750000,
+		"displayname": "&3[&fArchon&3]",
+		"cost": 500000,
 		"chunks": 2500,
-		"creative-world": true,
-		"tp-cooldown": false, //is this still a thing???
 		"locks": {
 			"default": 350,
 			"chest": 175
 		},
-		"homes": "15 + bed", 
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
+	},
+	{
+		"id": 7,
+		"name": "Hero",
+		"displayname": "&4[&6*Hero*&4]",
+		"cost": 750000,
+		"chunks": 2500,
+		"locks": {
+			"default": 350,
+			"chest": 175
+		},
+		"homes": "15 + bed",
 		"commands": {
 			"/back": "go back to your prev location",
 			"/near": "check who is near you",
-			"/fix": "fix the durability of an item", //costs money
-			"/heal": "heal yourself", //costs money
+			"/fix": "fix the durability of an item",
+			"/heal": "heal yourself",
 			"/clearinventory": "delete your inventory",
-			"/anvil": "virtual anvil",//costs money
+			"/anvil": "virtual anvil",
 			"/kit rainstick": "make it rain",
 			"/kit ares": "ares tome shoots fireballs",
 			"/kit spawner5": "5 spawner keys monthly"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 12,
+		"id": 8,
 		"name": "Champion",
 		"displayname": "&b[&6Champion&b]",
+		"cost": 750000,
+		"chunks": 2500,
 		"locks": {
 			"default": 400,
-			"chest": 200 
-		}
+			"chest": 200
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 13,
+		"id": 9,
 		"name": "Paragon",
 		"displayname": "&6[&eParagon&6]",
+		"cost": 750000,
+		"chunks": 2500,
 		"locks": {
 			"default": 450,
-			"chest": 225 
-		}
+			"chest": 225
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 14,
+		"id": 10,
 		"name": "Legend",
 		"displayname": "&3[&bLegend&3]",
+		"cost": 750000,
+		"chunks": 2500,
 		"locks": {
 			"default": 500,
-			"chest": 250 
-		}
+			"chest": 250
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 15,
+		"id": 11,
 		"name": "Demigod",
 		"displayname": "&6[&d*Demigod*&6]",
-		"cost": 3500000,
+		"cost": 2500000,
 		"chunks": 2500,
-		"creative-world": true,
-		"tp-cooldown": false, //is this still a thing???
 		"locks": {
 			"default": 550,
 			"chest": 275
 		},
-		"homes": "15 + bed", 
+		"homes": "15 + bed",
 		"commands": {
-			"/fix all": "fix all items in your inventory", //costs money
+			"/fix all": "fix all items in your inventory",
 			"/condense": "condense items in your inventory",
-			"/heal": "heal yourself", //does this cost money??
+			"/heal": "heal yourself",
 			"/powertool": "set an item as a command executor",
 			"/kit spawner15": "15 spawner keys a month"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": false
 	},
 	{
-		"id": 16,
+		"id": 12,
 		"name": "God",
 		"displayname": "&9[&5*God*&9]",
-		"cost": 7500000,
+		"cost": 5500000,
 		"chunks": 2500,
-		"creative-world": true,
-		"tp-cooldown": false, //is this still a thing???
-		"tob": true,
-		"ancient-power-imbue": true,
 		"locks": {
 			"default": 600,
 			"chest": 300
 		},
-		"homes": "15 + bed", 
+		"homes": "15 + bed",
 		"commands": {
 			"/uncondense": "uncondense items in your inventory",
-			"/anvil": "virtual anvil", //no longer costs money
+			"/anvil": "virtual anvil",
 			"/soak": "convert concrete powder to concrete",
 			"/jump": "jump to a location",
 			"/top": "teleport to the top most location above you",
 			"/smelt": "smelt items in your hand",
 			"kit spawner25": "25 spawner keys a month"
-		}
+		},
+		"kits": {},
+		"keep-exp": false,
+		"keep-inv": false,
+		"tob": true
 	},
 	{
-		"id": 17,
+		"id": 13,
 		"name": "Olympian",
 		"displayname": "&4[&fOlympian&4]",
-		"tob": true,
-		"keep-exp": true,
+		"cost": 7500000,
+		"chunks": 2500,
 		"locks": {
 			"default": 650,
-			"chest": 325 
-		}
+			"chest": 325
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": true,
+		"keep-inv": false,
+		"tob": true
 	},
 	{
-		"id": 18,
+		"id": 14,
 		"name": "Titan",
 		"displayname": "&5[&dTitan&5]",
-		"tob": true,
-		"keep-exp": true,
+		"cost": 10000000,
+		"chunks": 2500,
 		"locks": {
 			"default": 700,
-			"chest": 350 
-		}
+			"chest": 350
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": true,
+		"keep-inv": false,
+		"tob": true
 	},
 	{
-		"id": 19,
+		"id": 15,
 		"name": "Immortal",
 		"displayname": "&5[&eImmortal&5]",
-		"tob": true,
-		"keep-exp": true,
-		"keep-inv": true,
+		"cost": 15000000,
+		"chunks": 2500,
 		"locks": {
 			"default": 750,
-			"chest": 375 
-		}
+			"chest": 375
+		},
+		"homes": "15 + bed",
+		"commands": {},
+		"kits": {},
+		"keep-exp": true,
+		"keep-inv": true,
+		"tob": true
 	}
-
 ]
